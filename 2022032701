@@ -1,0 +1,10 @@
+#include <stdio.h>
+int main()
+{
+	typedef unsigned int u;
+	u num1=123;
+	u num2=-1;
+	u sum=num1+num2;
+	printf("num2=%u\nsum=%d\n",num2,sum);
+	return 0;
+}
